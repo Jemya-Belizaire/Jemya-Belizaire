@@ -21,7 +21,7 @@ Email: Jemyab@hawaii.edu
 * Monitor CASREP requisition status, shipping and delivery dates, and material requirements using PMO PRIME.
 * Maintain CANNAB tracking reports and provide status updates to ships and leadership on outstanding material requests.
 
-U.S. Navy, Logistics Specialist — September 2018–April 2026
+**U.S. Navy, Logistics Specialist — September 2018–April 2026**
 
 * Supported end-to-end logistics and supply operations, including procurement, inventory accountability, material distribution, and operational readiness.
 * Coordinated and expedited mission-critical material requirements to support equipment restoration and operational readiness.
