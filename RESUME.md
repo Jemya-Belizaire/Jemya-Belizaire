@@ -8,7 +8,7 @@ Email: Jemyab@hawaii.edu
 **University of Hawaiʻi at Mānoa** — Honolulu, HI  
 *Master of Business Administration, Expected 2028*
 
-**Southern New Hampshire University** — Manchester, New Hampshire 
+**Southern New Hampshire University** — Manchester, New Hampshire
 *Bachelor of Science in Operations Management, 2026*
 ---
 ## PROFESSIONAL EXPERIENCE
