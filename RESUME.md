@@ -14,7 +14,7 @@ Email: Jemyab@hawaii.edu
 ---
 ## PROFESSIONAL EXPERIENCE
 
-CACI International Inc., Senior Logistics Analyst — August 2026–Present
+**CACI International Inc., Senior Logistics Analyst — August 2026–Present**
 
 * Serve as the primary N41 point of contact for CNSG MIDPAC CANNAB CASREP material expediting.
 * Coordinate with NAVSUP WSS, DLA, TYCOM Readiness Operations Center, and other organizations to expedite critical material requirements.
