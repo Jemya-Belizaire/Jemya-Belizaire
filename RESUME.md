@@ -5,11 +5,11 @@ Email: Jemyab@hawaii.edu
 ---
 ## EDUCATION
 
-University of Hawaiʻi at Mānoa, Master of Business Administration — Honolulu, HI
+**University of Hawaiʻi at Mānoa** — Honolulu, HI  
+*Master of Business Administration, Expected 2028*
 
-* Master of Business Administration — Expected 2028
-
-Bachelor of Science in Operations Management
+**Southern New Hampshire University** — Manchester, New Hampshire 
+*Bachelor of Science in Operations Management, 2026*
 ---
 ## PROFESSIONAL EXPERIENCE
 
