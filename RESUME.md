@@ -1,7 +1,7 @@
 # Jemya C. Belizaire
 
 Honolulu, HI  
-Email: jemyab@gmail.com 
+Email: Jemyab@hawaii.edu 
 ---
 ## EDUCATION
 
