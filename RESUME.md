@@ -1,8 +1,10 @@
 # Jemya C. Belizaire
 
-Honolulu, HI  
-Email: Jemyab@hawaii.edu 
+Honolulu, HI
+Email: Jemyab@hawaii.edu
+
 ---
+
 ## EDUCATION
 
 **University of Hawaiʻi at Mānoa** — Honolulu, HI  
