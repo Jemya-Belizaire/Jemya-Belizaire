@@ -1,6 +1,7 @@
 # Jemya C. Belizaire
 
 Honolulu, HI
+
 Email: Jemyab@hawaii.edu
 
 ---
