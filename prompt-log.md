@@ -29,3 +29,17 @@ ChatGPT interpreted my professor's feedback and guided me through the required r
 
 **What I reviewed or changed:**  
 I completed each change in GitHub myself and reviewed the content before committing it. After making the corrections, I asked ChatGPT to review my repository against my professor's feedback to identify anything I had missed.
+
+## September 26, 2026
+
+### Stage 1.1: Perfect Competition Hypothesis
+
+**AI Tool:** ChatGPT
+
+**What I asked:**
+I asked ChatGPT to double-check my hypothesis for the perfect competition case, strengthen my reasoning, and format the completed engagement brief in Markdown (MD).
+
+**How AI helped:**
+ChatGPT reviewed and strengthened the hypothesis by explaining how revenue, labor costs, and diminishing returns could affect the farm's planting decisions. It helped organize the reasoning behind allocating 18 tomato beds, 18 carrot beds, and 25 mesclun beds. ChatGPT also formatted the engagement brief in Markdown according to the assignment template.
+**What I learned:**
+I learned that a hypothesis does not need to be the correct answer, but it should include a specific prediction and supporting reasoning. I also learned that maximizing revenue is not necessarily the same as maximizing profit because labor costs and diminishing returns can affect the planting decision.
