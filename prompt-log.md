@@ -41,5 +41,9 @@ I asked ChatGPT to double-check my hypothesis for the perfect competition case, 
 
 **How AI helped:**
 ChatGPT reviewed and strengthened the hypothesis by explaining how revenue, labor costs, and diminishing returns could affect the farm's planting decisions. It helped organize the reasoning behind allocating 18 tomato beds, 18 carrot beds, and 25 mesclun beds. ChatGPT also formatted the engagement brief in Markdown according to the assignment template.
+
+**What I reviewed or changed:**
+I reviewed the hypothesis and changed the format in which I delivered the assignment by using Markdown instead of a traditional document. I then added the completed brief to my GitHub repository and updated my engagement index.
+
 **What I learned:**
 I learned that a hypothesis does not need to be the correct answer, but it should include a specific prediction and supporting reasoning. I also learned that maximizing revenue is not necessarily the same as maximizing profit because labor costs and diminishing returns can affect the planting decision.
