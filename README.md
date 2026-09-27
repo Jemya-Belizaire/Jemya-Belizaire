@@ -29,3 +29,4 @@
 This section will be updated with coursework, projects, and other work completed throughout my MBA program.
 
 - [Resume](RESUME.md)
+- [Perfect Competition: Engagement Brief](docs/briefs/perfect-competition-brief.md)
