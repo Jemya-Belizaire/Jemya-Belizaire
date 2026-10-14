@@ -67,3 +67,33 @@ I also added the 36-week growing season, $20,000 fixed cost, and the constraint 
 
 **What I learned:**
 I learned that a critique is different from asking AI to strengthen or rewrite my work. A critique should identify weaknesses, unsupported assumptions, and missing evidence so that I can decide how to address them myself. I also learned that a specific hypothesis can still be useful even if the model later proves that it is not feasible or optimal.
+
+## October 13, 2026
+
+### Stage 1.2: Model Specification Review
+
+**AI Tool Used:** ChatGPT
+
+**Purpose:** Used ChatGPT to help review my model specification, clarify calculations, and identify areas that may need additional attention before building the Excel workbook.
+
+**How AI Assisted:**
+
+- Helped organize the specification into inputs, calculations, constraints, outputs, and validation checks.
+- Explained how labor requirements, diminishing returns, and marginal costs affect the planting decisions.
+- Reviewed the specification for unclear assumptions, unsupported claims, and potential calculation errors.
+- Identified areas requiring additional verification, including labor availability, Solver reliability, and marginal-cost calculations.
+- Suggested questions to consider when evaluating whether the model's results are realistic and reliable.
+
+**My Review and Next Steps:**
+
+I reviewed the specification against the case requirements and kept my original planting hypothesis of 18 tomato beds, 18 carrot beds, and 25 mesclun beds for comparison.
+
+During the Excel modeling stage, I will verify the labor calculations, check whether the planting allocation meets the 6,480-hour labor constraint, and compare the model's results with the expected outcomes. I will also test Solver from different starting points and document any discrepancies.
+
+**What I Learned:**
+
+This review helped me better understand the importance of checking assumptions before building a model. I also learned that a model can contain correct formulas but still produce unreliable recommendations if its constraints or inputs are incorrect.
+
+
+
+
