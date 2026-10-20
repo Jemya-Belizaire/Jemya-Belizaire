@@ -1,4 +1,3 @@
-
 ---
 type: spec
 capability: marginal-analysis
