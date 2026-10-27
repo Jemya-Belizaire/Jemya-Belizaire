@@ -391,18 +391,67 @@ The workbook must report:
 - Validation results and audit findings
 - Comparison with the original 18/18/25 prediction
 
+
 ## Audit Findings
 
-To be completed after the workbook is generated and independently checked.
+### 1. Initial Allocation Audit
 
-Each finding will document:
+The original allocation was 18 tomato beds, 18 carrot beds, and 25 mesclun beds.
 
-1. What was checked.
-2. What the result showed.
-3. What error the check could have identified.
-4. What corrective action was taken, if necessary.
+- **Total beds used:** 61 of 64 — PASS
+- **Total labor hours:** 11,384 of 6,480 — FAIL
+- **Temporary labor hours:** 10,664 of 5,760 — FAIL
+- **Season profit:** Approximately -$12,307
 
-Actual audit results must not be entered until the workbook has been generated and tested.
+The initial allocation was infeasible because both total labor hours and temporary labor hours exceeded their limits. Although the allocation satisfied the bed capacity constraint, it could not be implemented with the available labor resources.
+
+### 2. Solver Results
+
+Two Solver runs were performed using different starting allocations.
+
+| Item | Run 1 | Run 2 |
+|---|---|---|
+| Starting allocation | 0 / 0 / 0 | 20 / 0 / 0 |
+| Tomato beds returned | 10.0040496 | 10.00404901 |
+| Carrot beds returned | 20 | 20 |
+| Mesclun beds returned | 30 | 30 |
+| Integer constraint | FAIL | FAIL |
+
+Solver returned nearly identical results for both starting allocations. Although Solver indicated that the constraints were satisfied, the tomato allocation was fractional.
+
+Because the model requires whole-number bed allocations, neither Solver result fully satisfied the integer requirement.
+
+### 3. Final Allocation Verification
+
+The final allocation was manually verified using whole-number bed values.
+
+| Crop | Final Beds |
+|---|---:|
+| Tomatoes | 10 |
+| Carrots | 20 |
+| Mesclun | 30 |
+| **Total** | **60** |
+
+The final allocation produced the following results:
+
+| Audit Check | Result | Status |
+|---|---|---|
+| Season profit | $42,761.66 | PASS |
+| Total beds | 60 / 64 | PASS |
+| Total labor hours | 5,277.22 / 6,480 | PASS |
+| Temporary labor hours | 4,557.22 / 5,760 | PASS |
+| Whole-number bed allocation | 10 / 20 / 30 | PASS |
+| Profit within $5 of check figure | Yes | PASS |
+
+### 4. Conclusion
+
+The final allocation of 10 tomato beds, 20 carrot beds, and 30 mesclun beds satisfies the bed capacity, labor capacity, temporary labor, and integer requirements.
+
+The resulting season profit is approximately **$42,761.66**, matching the expected check figure within the required $5 tolerance.
+
+Both Solver runs produced nearly identical fractional solutions despite the integer constraint being included. The final whole-number allocation was therefore manually verified rather than confirmed as an integer solution returned by Solver.
+
+The workbook calculations and final allocation pass the feasibility and profit checks. The remaining limitation is Solver's failure to enforce the integer constraint during optimization.
 
 The final workbook must preserve all formulas, named ranges, validation checks, and Solver results.
 
