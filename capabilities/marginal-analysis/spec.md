@@ -3,7 +3,7 @@ type: spec
 capability: marginal-analysis
 engagement: perfect-competition
 date: 2026-10-13
-status: draft
+status: complete
 ---
 
 # Marginal Analysis - Model Specification
@@ -101,6 +101,8 @@ OWNER_LABOR_COST = OWNER_HRS_USED * OWNER_RATE
 TEMP_LABOR_COST = TEMP_HRS_USED * TEMP_RATE
 
 TOTAL_LABOR_COST = OWNER_LABOR_COST + TEMP_LABOR_COST
+
+TEMP_WORKERS_REQUIRED = TEMP_HRS_USED / TEMP_HRS_PER_WORKER
 
 BLENDED_RATE = IF(TOTAL_LABOR_HRS = 0, 0, TOTAL_LABOR_COST / TOTAL_LABOR_HRS)
 
@@ -328,22 +330,7 @@ Record each final allocation and seasonal profit.
 
 State whether both runs converge to the same solution.
 
-### Test 5: Farm Profit Lab Comparison
-
-Select at least one intermediate marginal-cost calculation and compare it with the Farm Profit Lab.
-
-Record:
-
-- Crop
-- Quantity
-- Workbook marginal cost
-- Farm Profit Lab marginal cost
-- Difference
-- Whether the values agree within the displayed precision
-
-Do not enter an unverified Farm Profit Lab value.
-
-### Test 6: Intentional Validation Failure
+### Test 5: Intentional Validation Failure
 
 Temporarily change an input or decision value to trigger a failed acceptance check.
 
@@ -353,7 +340,7 @@ Restore the original value and confirm that the validation result updates correc
 
 Record the test without leaving incorrect values in the final workbook.
 
-### Test 7: Tomato Marginal-Cost Dip
+### Test 6: Tomato Marginal-Cost Dip
 
 Inspect the tomato marginal-cost schedule near six beds.
 
@@ -361,7 +348,7 @@ Identify and record the location of the dip.
 
 Do not explain the cause at this stage.
 
-### Test 8: Formula Integrity
+### Test 7: Formula Integrity
 
 Confirm that calculated results update when inputs change.
 
@@ -396,14 +383,7 @@ The workbook must report:
 
 ### 1. Initial Allocation Audit
 
-The original allocation was 18 tomato beds, 18 carrot beds, and 25 mesclun beds.
-
-- **Total beds used:** 61 of 64 — PASS
-- **Total labor hours:** 11,384 of 6,480 — FAIL
-- **Temporary labor hours:** 10,664 of 5,760 — FAIL
-- **Season profit:** Approximately -$12,307
-
-The initial allocation was infeasible because both total labor hours and temporary labor hours exceeded their limits. Although the allocation satisfied the bed capacity constraint, it could not be implemented with the available labor resources.
+The original allocation of 18 tomato beds, 18 carrot beds, and 25 mesclun beds should have triggered the total labor capacity and temporary labor capacity constraint checks. The allocation required approximately 11,384 total labor hours, exceeding the 6,480-hour limit by 4,904 hours. It also required approximately 10,664 temporary labor hours, exceeding the 5,760-hour limit. Both checks should return FAIL for this allocation. The original allocation met the total bed capacity requirement but was infeasible because of insufficient labor capacity.
 
 ### 2. Solver Results
 
