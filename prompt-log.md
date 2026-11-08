@@ -94,6 +94,24 @@ During the Excel modeling stage, I will verify the labor calculations, check whe
 
 This review helped me better understand the importance of checking assumptions before building a model. I also learned that a model can contain correct formulas but still produce unreliable recommendations if its constraints or inputs are incorrect.
 
+## November 7, 2026: Stage 3 Economic Analysis and Decision Memo
+
+**AI Tool Used:** ChatGPT
+
+**Purpose:** Understand the economic results from my Excel model and prepare my Stage 3 analysis and decision memo.
+
+**How I Used AI:**
+
+I used ChatGPT to help clarify economic concepts such as marginal cost, diminishing returns, and binding constraints. I also used it to review my interpretation of the Excel model, improve the organization and wording of my analysis, and assist with creating the charts and decision memo. I reviewed the results to better understand the farm's production decisions.
+
+**What I Learned:**
+
+The biggest thing I learned is that increasing production does not always increase profit. I initially thought that using more resources would be better, but the model showed that additional costs can outweigh additional revenue. I also learned that binding constraints identify production limits that may be worth reconsidering, while unused resources do not automatically mean the farm is operating inefficiently.
+
+**Final Decision:**
+
+I recommended 10 tomato beds, 20 carrot beds, and 30 mesclun beds, with an estimated seasonal profit of $42,761.66.
+
 
 
 
