@@ -30,7 +30,7 @@ However, cheaper labor does not eliminate diminishing returns. As more tomato be
 
 The crops also have different diminishing-returns rates. Tomatoes have the highest rate at 10%, followed by carrots at 2.5% and mesclun at 1.25%. These differences help explain why expanding tomato production becomes more expensive more quickly than expanding the other crops.
 
-![Marginal cost comparison by crop](figures/crop-marginal-cost-comparison.png)
+![Marginal cost comparison by crop](figures/Marginal%20Cost%20Comparison%20by%20Crop.png)
 
 *Figure 2. Marginal cost schedules for tomatoes, carrots, and mesclun. Source: Marginal Cost worksheet.*
 
