@@ -112,6 +112,16 @@ The biggest thing I learned is that increasing production does not always increa
 
 I recommended 10 tomato beds, 20 carrot beds, and 30 mesclun beds, with an estimated seasonal profit of $42,761.66.
 
+### Stage 1.3 Reflection
+
+One issue I encountered while using ChatGPT was receiving guidance that turned out to be incorrect. When reviewing my model specification, ChatGPT told me, "You do not need to find a separate Farm Profit Lab." I questioned this because I wanted to make sure I was following my professor's actual requirements rather than relying only on the assistant's interpretation. After reviewing the professor's later feedback, I learned that the Farm Profit Lab comparison was required.
+
+This experience reminded me that AI can be helpful when explaining concepts and organizing assignments, but its recommendations still need to be verified.
+
+I also tested my Excel workbook by checking whether the validation formulas responded when I changed the planting inputs. I confirmed that the checks could identify an invalid allocation and updated when the values were restored. I reviewed the final allocation of 10 tomato beds, 20 carrot beds, and 30 mesclun beds against the labor and bed capacity limits.
+
+What I learned from this stage is that getting an answer is only part of the process. I also need to understand the calculations, verify the results, and make sure my conclusions are supported by the model.
+
 
 
 
